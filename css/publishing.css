@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+#sub_contents > p{width:100%; padding:20px 0 60px; text-align:center; font-size:20px;}
+
+/* submission */
+.submission_form{width:1320px; overflow:hidden; padding:80px 100px 40px; border:1px solid #490e67; box-sizing:border-box; background-color:#f6f2ff;} 
+.submission_form > ul > li{width:100%; margin-bottom:60px; overflow:hidden;}
+
+.submission_form li > span{float:left; width:165px; height:165px; background-color:#490e67; background-repeat:no-repeat; background-position:center; background-size:110px; transition:0.4s;}
+.submission_form > ul > li:nth-child(1) span{background-image:url(../images/publishing/submission_icon01.png);}
+.submission_form > ul > li:nth-child(2) span{background-image:url(../images/publishing/submission_icon02.png);}
+.submission_form > ul > li:nth-child(3) span{background-image:url(../images/publishing/submission_icon03.png);}
+.submission_form > ul > li:nth-child(4) span{background-image:url(../images/publishing/submission_icon04.png);}
+
+.submission_form li:hover > span{background-size:120px; background-color:rgba(74,13,103,0.8);}
+
+.submission .submission_form h5{float:left; width:952px; padding:10px 60px; border-bottom:1px solid #490e67; box-sizing:border-box; font-size:28px; color:#490e67; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+
+.submission_form h5 + p, .submission_form h5 + ul{padding:65px 0 0 225px; box-sizing:border-box; line-height:38px; font-size:20px;}
+.submission_form h5 + ul li{padding-left:20px; background-image:url(../images/publishing/submission_list_icon.png); background-repeat:no-repeat; background-position:left center;}
+
+/* prize */
+.prize > ul{width:100%; height:60px; margin-bottom:60px; background-color:rgba(74,13,103,0.8); line-height:60px; text-align:center;}
+.prize > ul > li{position:relative; display:inline-block; height:60px; margin:0 0px; text-align:center;}
+.prize .con_nav{display:block; font-size:20px; height:60px; padding:0 40px; box-sizing:border-box; color:#fff; transition:0.4s;}
+.prize .con_nav:hover{font-size:22px; font-weight:500; color:#fff;}
+.prize .con_nav.active{font-size:22px; font-weight:500; border-bottom:4px solid rgba(255, 255, 255, 0.8);}
+.prize > ul > li:after{position:absolute; top:0; bottom:0; right:0; margin:auto 0; display:inline-block; width:3px; height:3px; border-radius:2px; background-color:#fff; content:'';}
+.prize > ul > li:last-child:after{display:none;}
+
+.prize > div{width:1320px; overflow:hidden; padding:70px 100px 40px; border:1px solid #490e67; box-sizing:border-box; background-color:#f6f2ff;}  
+.prize > div{display:none;}
+.prize > div.active{display:block;}
+
+.prize > div h4{padding-bottom:20px; text-align:center; font-size:36px; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+.prize > div h4 + p{text-align:center; font-size:20px; line-height:38px; padding-bottom:80px;}
+
+.prize > div > ul > li{width:100%; margin-bottom:60px; overflow:hidden;}
+.prize > div > ul > li > span{float:left; width:165px; height:165px; background-color:#490e67; background-repeat:no-repeat; background-position:center; background-size:110px; transition:0.4s;}
+.prize > div > ul > li:nth-child(1) span{background-image:url(../images/publishing/prize_icon01.png);}
+.prize > div > ul > li:nth-child(2) span{background-image:url(../images/publishing/prize_icon02.png);}
+.prize > div > ul > li:nth-child(3) span{background-image:url(../images/publishing/prize_icon03.png);}
+.prize > div > ul > li:nth-child(4) span{background-image:url(../images/publishing/prize_icon04.png);}
+.prize > div > ul > li:nth-child(5) span{background-image:url(../images/publishing/prize_icon05.png);}
+
+.prize li:hover > span{background-size:120px; background-color:rgba(74,13,103,0.8);}
+
+.prize > div h5{float:left; width:952px; padding:10px 60px; border-bottom:1px solid #490e67; box-sizing:border-box; font-size:28px; color:#490e67; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+.prize > div h5 + p, .prize > div h5 + ul{padding:65px 0 0 225px; box-sizing:border-box; line-height:38px; font-size:20px;}
+.prize > div h5 + ul li{padding-left:20px; background-image:url(../images/publishing/submission_list_icon.png); background-repeat:no-repeat; background-position:left center;}
+
+/* consulting */
+.consulting_form{width:1320px; overflow:hidden; padding:80px 100px 40px; border:1px solid #490e67; box-sizing:border-box; background-color:#f6f2ff;} 
+.consulting_form > ul > li{width:100%; margin-bottom:60px; overflow:hidden;}
+.consulting_form > ul > li:nth-child(2){margin-bottom:50px;}
+
+.consulting_form li > span{float:left; width:165px; height:165px; background-color:#490e67; background-repeat:no-repeat; background-position:center; background-size:110px; transition:0.4s;}
+.consulting_form > ul > li:nth-child(1) span{background-image:url(../images/publishing/consulting_icon01.png);}
+.consulting_form > ul > li:nth-child(2) span{background-image:url(../images/publishing/consulting_icon02.png);}
+
+.consulting_form li:hover > span{background-size:120px; background-color:rgba(74,13,103,0.8);}
+
+.consulting_form h5{float:left; width:952px; padding:10px 60px; border-bottom:1px solid #490e67; box-sizing:border-box; font-size:28px; color:#490e67; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+
+.consulting_form h5 + p{padding:65px 0 0 225px; box-sizing:border-box; line-height:38px; font-size:20px;}
+.consulting_form form{padding:65px 0 0 225px; line-height:38px;}
+.consulting_form .align{width:100%; margin:10px 0 30px; overflow:hidden;}
+.consulting_form form label{float:left; font-size:20px; padding-right:30px; line-height:45px;}
+.consulting_form form input{float:right; width:740px; height:45px; padding-left:20px; box-sizing:border-box; border:1px solid #490e67; font-size:20px;}
+.consulting_form textarea{float:right; width:740px; height:255px; padding-left:20px; box-sizing:border-box; border:1px solid #490e67; overflow-y:auto; font-size:20px;}
+
+/*.consulting_form button{display:block; width:620px; height:60px;  margin:0px auto 30px; border-radius:5px; background-color:#490e67; color:#fff; font-size:24px; transition:0.4s;}
+.consulting_form button:hover{background-color:rgba(74,13,103,0.8);}*/
+.consulting_form a{display:block; width:620px; height:60px;  margin:0px auto 30px; border-radius:5px; background-color:#490e67; color:#fff; line-height:60px; text-align:center; font-size:24px; transition:0.4s;}
+.consulting_form a:hover{background-color:rgba(74,13,103,0.8);}
+
+/* consulthing_complete */
+#sub_contents.consulting_complete p.top{padding:80px 0 20px; font-size:40px; font-family: 'Cafe24Dangdanghae'; color:#490e67;}
+.consulting_complete p.bottom{line-height:40px; font-size:22px;}
+
+
+
+
+
+
+

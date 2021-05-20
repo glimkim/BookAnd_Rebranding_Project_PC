@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* header_effect */
+.gnb > ul > li.bookmark.index{background-image:url(../images/common/header_sub_menu_icon.png); background-repeat: no-repeat; background-position: right top;}
+
+/* sub_main */
+#sub_main{width:100%; height:380px; border-bottom:1px solid #490e67;}
+#sub_main .wrap{position:relative; padding-top:140px; box-sizing:border-box; overflow:hidden;}
+#sub_main .addclass_text{position:relative; left:-100%; transition:0.6s; transition-delay:0.6s;}
+#sub_main .addclass_text.active{left:0;}
+#sub_main h2{font-size:48px; font-weight:normal; font-family: 'Cafe24Dangdanghae'; color:#490e67;}
+#sub_main p{font-size:20px; padding-bottom:10px;}
+#sub_main span{position:relative; left:-100%; display:block; width:100%; height:1px; background-color:#490e67; transition:0.6s;}
+#sub_main span.active{left:0; transition:0.6s; }
+#sub_main img{position:absolute; top:0; bottom:0; right:-100%; margin:auto 0; z-index:10; transition:0.6s; transition-delay:0.6s;}
+#sub_main img.active{right:0;}
+
+/* indicator */
+#indicator{width:1320px; height:55px; margin:0 auto; padding-top:20px; box-sizing:border-box;}
+#indicator ul{float:left;}
+#indicator ul li{position:relative; float:left;}
+#indicator ul li:after{position:absolute; top:1px; right:-2px; content:'|'; font-size:16px; color:#999;}
+#indicator ul li:last-child:after{content:'';}
+#indicator ul li span{display:block; width:100%; height:4px; background-color:#490e67; transform:scaleX(0); transition:0.8s;}
+#indicator ul li a{display:block; padding:0 35px 8px; font-size:20px; border-bottom:1px solid #999; transition:0.4s;}
+#indicator ul li.active a{position:relative; top:-2px; padding-bottom:4px; font-size:24px; font-weight:700; color:#490e67;}
+#indicator ul li.active span{position:relative; top:-5px; display:block; width:100%; height:4px; transform:scaleX(1);}
+
+/* sub_title */
+#sub_title{width:1320px; text-align:center; margin:120px auto 0px;}
+#sub_title h3{display:inline-block; padding:0 25px 10px; font-size:36px; font-weight:700; color:#490e67; margin-bottom:10px; border-bottom: 1px solid #490e67; transform:scaleY(0); transition:0.4s; transition-delay:0.4s;}
+#sub_title h3.active{transform:scaleY(1); }
+
+/* sub_contents */
+#sub_contents{width:1320px; margin:0 auto; margin-bottom:200px; transform:scaleY(0); transition:0.6s; transition-delay:0.6s;}
+#sub_contents.bookand{transform:scaleY(1);}
+#sub_contents.active{transform:scaleY(1);}
+
+/* footer_line */
+.outer_wrap{width:100%; min-width:1320px; border-top:1px solid #490e67;}

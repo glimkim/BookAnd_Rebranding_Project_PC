@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* join */
+body{background-color:#f6f2ff;}
+body > div{width:945px; margin:0 auto; overflow:hidden; padding:60px 0; text-align:center;}
+h1{width:100%; text-align:center; margin-bottom:40px;}
+h1 a{display:inline-block;}
+h3{display:inline-block; padding:0 25px 10px; margin-bottom:70px; border-bottom:1px solid #490e67; font-size:36px; font-weight:700; color:#490e67;}
+h3 + ul{width:100%; margin-bottom:100px;}
+h3 + ul > li{position:relative;float:left; padding-bottom:8px; width:315px; font-size:20px;}
+h3 + ul > li span{position:absolute; bottom:0; left:0; display:block; width:100%; height:3px; background-color:#490e67; transform:scaleX(0); transition:0.8s;}
+h3 + ul > li.active span{transform:scaleX(1);}
+h3 + ul > li.active{font-size:22px; color:#490e67; font-weight:700;}
+h3 + ul > li:after{position:absolute; top:1px; right:-3px; content:'|'; font-size:18px; color:#ccc;}
+h3 + ul > li:last-child::after{content:'';}
+
+.away{position:absolute; left:-999em;}
+
+.join_wrap form{text-align:left;}
+.join_wrap label{display:block;}
+.join_wrap label span{padding-left:5px; font-size:19px;}
+.join_wrap label span.essential{font-weight:700; color:#490e67;}
+.join_wrap label[for="check_all"]{margin-bottom:40px;}
+.join_wrap label[for="promotion"]{margin-top:40px;}
+.join_wrap .check_box i{position:relative; top:2px; display:inline-block; width:15px; height:15px; border:1px solid #999; background-color:#fff;}
+.join_wrap input[type="checkbox"]:checked + i{background-image:url(../images/common/checkbox_bg.png);}
+.join_wrap input[type="checkbox"]{position: absolute; left:-99999999em;}
+.join_wrap 
+.join_wrap p{font-size:16px; color:#666;}
+.join_wrap p.condtions{width:100%; height:200px; margin:15px 0 40px; padding:20px; box-sizing:border-box; border:1px solid #ccc; background-color:#fff; overflow-y: auto;}
+.join_wrap p.promotion_condition{padding:8px 20px;}
+.join_wrap button{display:inline-block; width:455px; height:60px; margin:70px 0 70px; border:1px solid #490e67; background-color:#fff; line-height:60px; font-size:20px; text-align:center;}
+.join_wrap .confirm{float:right; background-color:#490e67; color:#fff; transition:0.4s;}
+.join_wrap .confirm:hover{background-color:rgba(70, 0, 107, 0.8);}
+
+/* join_form */
+.join_form form{text-align:left;}
+.join_form form li label, .join_form form li span{display:block; font-size:18px; padding-bottom:15px; }
+.join_form form input{float:left; width:100%; height:60px; padding-left:20px; margin-bottom:30px; border:1px solid #ccc; box-sizing:border-box; font-size:18px;}
+
+.join_form form .first input{float:left; width:calc(100% - 250px);}
+.join_form form .email_check{float:right; display:inline-block; padding:0; width:220px; height:60px; background-color:#490e67; line-height:52px; color:#fff; text-align:center; font-size:18px; transition:0.4s;}
+
+.join_form form .password_set{width:65%;}
+.join_form form .password_set + p{float:left; display:inline-block; line-height:60px; font-size:18px; color:#666; padding-left:30px;}
+.join_form form .password_set + p.not_match{display:none; color:#ba2020;}
+
+.join_form form li{width:100%; overflow:hidden; text-align:left;}
+
+
+/* post */
+.join_form form li.last input{margin-bottom:20px;}
+#address01{float:left; width:calc(100% - 390px);}
+#address02{float:right; width:360px;}
+#postcode{float:left; width:calc(100% - 250px);}
+.last input[type="button"]{float:right; display:inline-block; padding:0; width:220px; height:60px; background-color:#490e67; line-height:52px; color:#fff; text-align:center; font-size:18px; transition:0.4s;}
+/*==================================*/
+
+
+
+.join_form .button{display:inline-block; width:455px; height:60px; margin:70px 0 70px; border:1px solid #490e67; background-color:#fff; line-height:60px; font-size:20px; text-align:center;}
+.join_form .confirm{float:right; background-color:#490e67; color:#fff; transition:0.4s;}
+.join_form .confirm:hover{background-color:rgba(70, 0, 107, 0.8);}
+
+/* select */
+.join_form form select{height:60px; padding:0 20px; box-sizing:border-box; margin-bottom:30px; border:1px solid #ccc; font-size:18px;}
+.bday{width:28%; margin-left:25px; margin-right:15px;}
+#year{margin-left:0;}
+#gender{width:100%;}
+
+.join_form form > button{width:860px; height:60px; margin:60px auto; background-color:#490e67; color:#fff; font-size:20px; transition:0.4s;}
+.join_form form > button.previous{color:#490e67;}
+/* hover */
+.join_form button.confirm:hover, .join_form form .first a:hover, .last input[type="button"]:hover{background-color:rgba(70, 0, 107, 0.8);}
+
+/* joined */
+.joined .welcome_top{position:relative; top:200px; padding:60px 0 30px; font-size:40px; font-family: 'Cafe24Dangdanghae'; color:#490e67; opacity:0; transition:0.6s;}
+.joined .welcome_bottom{position:relative; top:200px; padding-bottom:60px; line-height:40px; font-size:22px; opacity:0; transition:0.6s; transition-delay: 0.4s;}
+.joined .welcome_bottom .joined_name{font-size:32px; color:#490e67; font-weight:700;}
+.joined > div{position:relative; top:200px; width:100%; height:60px; margin:60px auto; opacity:0;}
+.joined > div a{display:block; width:100%; height:100%; background-color:#490e67; color:#fff; line-height:60px; font-size:20px;  transition:0.4s;}
+/* hover & active */
+.joined > div a:hover{background-color:rgba(70, 0, 107, 0.8);}
+.joined p.active{top:0; opacity:1;}
+.joined > div.active{top:0; opacity:1; transition:0.6s; transition-delay:0.8s;}
+
+

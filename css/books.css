@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+#subcontents{position:relative; width:100%; padding-bottom:120px;}
+#sub_contents > p{width:100%; padding:20px 0 90px; text-align:center; font-size:20px;}
+
+#sub_contents ul{width:100%; box-sizing: border-box; overflow:hidden;}
+#sub_contents li{float:left; width:410px; height:690px; margin:0 45px 50px 0; overflow:hidden;}
+#sub_contents li:nth-child(3n){margin-right:0;}
+#sub_contents li figure{position:relative; width:410px; height:560px; background-color:rgba(74, 13, 103, 0.6); overflow:hidden; transition:0.3s;}
+#sub_contents li img{position:absolute; top:0; bottom:0; left:0; right:0; margin:auto; transition:0.3s;}
+#sub_contents li:nth-child(2n) figure{background-color:rgba(74, 13, 103, 0.9);}
+#sub_contents li .title{position:relative; width:410px; height:60px; margin-bottom:10px; box-sizing:border-box; border-bottom:2px solid rgba(74, 13, 103, 0.7); }
+#sub_contents li h4{position:absolute; left:0; top:5px;  width:220px; height:100%; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; line-height:50px; font-size:24px; font-weight:500; }
+#sub_contents li .title p{position:absolute; right:0; top:5px; width:160px; height:100%; text-align:right; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; line-height:50px; font-size:24px; font-weight:500;}
+#sub_contents li .title + p{line-height:32px; text-align:justify; font-size:18px; color:#444;}
+
+#sub_contents figure:hover img{opacity:0.7;}
+#sub_contents figure a{position:absolute; right:-150px; bottom:-150px; display:block; width:300px; height:300px; transform:rotate(45deg); background-color:#470a68; background-image:url(../images/books/like_icon_out.png); background-size:60px; background-position:25px 110px; background-repeat:no-repeat; opacity:0; transition:0.6s;}
+#sub_contents figure:hover a{opacity:0.9;}
+#sub_contents figure a.active{right:0; bottom:0; width:100%; height:100%; background-color:transparent; transform:rotate(0); background-image:url(../images/books/like_icon_active01.png); background-position:left top; opacity:1;}
+#sub_contents li:nth-child(2n) figure a.active{background-image:url(../images/books/like_icon_active02.png);}
+
+#sub_contents > a{position:absolute; z-index: 10; bottom:-40px; right:0; left:0; margin:0 auto; width:40px; padding-bottom:5px; border-bottom:3px solid #490e67; text-align: center;  font-size:24px; font-weight:500; color:#490e67;}
