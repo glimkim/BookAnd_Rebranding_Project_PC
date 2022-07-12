@@ -1,4 +1,4 @@
-# BookAnd Renewal Project - PC
+# BookAnd Renewal Project - PC (2021. 12. 31 - 2021. 02. 15)
 
 *sample view*
 
