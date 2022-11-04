@@ -35,13 +35,13 @@
                        </p>
                        </div>
                        <div class="text_area02">
-                           <img src="images/main/popup_qrcode.png" alt="QR코드 이미지">
+                           <img src="images/main/popup_qrcode.gif" alt="QR코드 이미지">
                            <p class="text02">
                            왼쪽의 QR코드를 스캔하거나<br>
                            아래 버튼을 누르면<br>
                            <span>모바일페이지</span>로 이동합니다.
                            </p>
-                           <a href="http://mbookand.dothome.co.kr" target="_blank">모바일 페이지로 이동 →</a>
+                           <a href="https://glimkim.github.io/BookAnd_Rebranding_Project_Mobile/" target="_blank">모바일 페이지로 이동 →</a>
                        </div>
                </div>
            </div>
@@ -653,7 +653,7 @@
                 <li><a href="https://www.facebook.com/21cbooks" target="_blank"></a></li>
                 <li><a href="https://twitter.com/21artepop" target="_blank"></a></li>
             </ul>
-            <a class="go_mobile" href="http://mbookand.dothome.co.kr/">모바일 버전 바로가기</a>
+            <a class="go_mobile" href="https://glimkim.github.io/BookAnd_Rebranding_Project_Mobile/">모바일 버전 바로가기</a>
             <p class="f_text">
                 상호 : BookAnd 대표 : OOO   개인정보관리담당 : 경영지원팀 OOO 팀장 bookAnd@bookAnd.com<br>    
                 문의 : 02-2309-9185  서울시 마포구  동교로 145 사업자번호 : 111-14-14121<br> 
